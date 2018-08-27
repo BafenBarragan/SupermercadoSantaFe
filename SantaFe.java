@@ -196,6 +196,7 @@ public class SantaFe
               
               case 9: 
               System.out.println("--- ¡Gracias por utilizar el sistema de nómina del Supermercado Santa Fe! ---");
+              break;
           }
         }while (opcion != 9); 
       
