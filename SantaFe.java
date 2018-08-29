@@ -85,15 +85,16 @@ public class SantaFe
               break; 
               
               case 2: 
-              
+              System.out.print ("AGREGAR EMPLEADOS. \n "); 
+              String emp = teclado.nextLine();
               System.out.print("Ingrese el nombre del nuevo empleado: "); 
-              String nom = teclado.next(); 
+              String nom = teclado.nextLine(); 
               System.out.print("Ingrese el apellido del nuevo empleado: "); 
-              String apel = teclado.next(); 
+              String apel = teclado.nextLine(); 
               System.out.print("Ingrese el departamento al que pertenece el nuevo empleado: "); 
-              String dpto = teclado.next(); 
+              String dpto = teclado.nextLine(); 
               System.out.print("Ingrese el cargo del nuevo empleado: "); 
-              String carg = teclado.next();
+              String carg = teclado.nextLine();
               System.out.print("Ingrese el salario del nuevo empleado: "); 
               double sala = teclado.nextDouble();               
               datos.add(new Empleado(nom, apel, dpto, carg, sala)); 
@@ -125,8 +126,8 @@ public class SantaFe
               break;
               
               case 4: 
-              System.out.print("Ingrese ÚNICAMENTE EL APELLIDO del empleado que desea busca. "); 
-              String a = teclado.next(); 
+              System.out.print("Ingrese ÚNICAMENTE EL APELLIDO del empleado que desea buscar. "); 
+              String a = teclado.nextLine(); 
               
               for (int i = 0; i < datos.size(); i++)
               {
